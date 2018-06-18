@@ -1,0 +1,7 @@
+[package]
+name = "mavlink_rust"
+version = "0.1.0"
+authors = ["Joel Wachsler <joel@wachsler.se>"]
+
+[dependencies]
+mavlink = { git = "https://github.com/JoelWachsler/rust-mavlink" }

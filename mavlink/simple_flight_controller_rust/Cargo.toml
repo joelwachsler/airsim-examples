@@ -1,0 +1,7 @@
+[package]
+name = "simple_flight_controller_rust"
+version = "0.1.0"
+authors = ["Daniel Aros Banda <daros@kth.se>", "Joel Wachsler <wachsler@kth.se>"]
+
+[dependencies]
+mavlink = { git = "https://github.com/JoelWachsler/rust-mavlink" }

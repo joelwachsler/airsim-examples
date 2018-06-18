@@ -1,0 +1,6 @@
+[submodule "mavlink/c/deps/mavlink"]
+	path = mavlink/c/deps/mavlink
+	url = https://github.com/mavlink/c_library_v1
+[submodule "mavlink/simple_flight_controller_c/deps/mavlink"]
+	path = mavlink/simple_flight_controller_c/deps/mavlink
+	url = https://github.com/mavlink/c_library_v1
