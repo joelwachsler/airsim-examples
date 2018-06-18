@@ -58,3 +58,6 @@ The API mentioned above is fine if absolute control of the motors is not require
 ```
 
 These settings allows us to contact AirSim with MAVLink over UDP on its default ports defined as 14560 and 14556. Because AirSim doesn't provide any documentation on how to use this API we've created some sample programs and API documentation which can be found [here](code/mavlink).
+
+# License
+This project is released under MIT License. Please review [License file](LICENSE) for more details.
