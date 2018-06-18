@@ -1,4 +1,4 @@
-# Official API using RPC
+# Default API using RPC
 
 AirSim can be controlled and communicated with using the official API described [here](https://github.com/Microsoft/AirSim/blob/master/docs/apis.md) with [MsgPack-RPC](https://msgpack.org/). This API is ideal if the user wants to get going a quick as possible with the least amount of effort. This API comes with a cost of not being able to gain full control over the motors and sensors and if that's of concern go and have a look at the lower level API accessible with MAVLink [here](/code/mavlink).
 
@@ -165,12 +165,6 @@ Rotate the drone to the specified yaw rate while remaining stationery at the cur
 
 Hover at the current x, y, and z. If the drone is moving when this is called, it will try and move back to the location it was at when this command was received and hover there.
 
-### setSafety
-
-### setSafety
-
-### getMultirotorState
-
 ### getPosition
 
 get the current local position in NED coordinate (x=North/y=East,z=Down) so z is negative.
@@ -193,4 +187,4 @@ Get the current RC inputs when RC transmitter is talking to to flight controller
 
 ### getGpsLocation
 
-### isSimulationMode
+Retrieves the current GPS location.
