@@ -1,6 +1,12 @@
 # AirSim examples
 This repository is the result of the bachelor thesis by Joel Wachsler and Daniel Aros Banda which ended in the summer of 2018. This repository contains code examples of how to communicate with AirSim by using the default API accessible through RPC and another message oriented API called MAVLink. It also contains a simple implementation of a flight controller using PID controllers in Rust and C.
 
+## Flight controller demo
+
+The video below is an example run of the custom flight controller in Rust
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=FlQWmxS77yw" target="_blank"><img src="http://img.youtube.com/vi/FlQWmxS77yw/0.jpg" alt="AirSim: Custom flight controller implementation" /></a>
+
 ## Setting up AirSim
 
 AirSim can be run on Windows, Linux or Mac but Unreal Engine must be built from source on Linux which may take a lot of time.
